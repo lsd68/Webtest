@@ -18,7 +18,6 @@ class CallbackTest {
     @BeforeAll
     static void setUpAll() {
         WebDriverManager.firefoxdriver().setup();
-        System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
     }
 
     @BeforeEach
