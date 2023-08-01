@@ -26,7 +26,7 @@ class CallbackTest {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
-        driver = new FirefoxDriver();
+        driver = new FirefoxDriver(options);
         driver.get("http://localhost:9999");
     }
 
